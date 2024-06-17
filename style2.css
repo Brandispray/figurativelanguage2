@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('escape-room-background2.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.flashcard, .dropzone, .sentence {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.flashcard h2, .flashcard p {
+    margin: 0;
+}
+
+#progress {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.dropzone {
+    min-height: 50px;
+    background-color: #f9f9f9;
+}
+
+#dropzones {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sentences {
+    margin-top: 20px;
+}
