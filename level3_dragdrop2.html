@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 3 - Drag and Drop 2</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Level 3: Drag and Drop</h1>
+        <p>Drag each sentence to the correct figurative language category.</p>
+        <div id="dropzones">
+            <div class="dropzone" id="simile-zone">Simile</div>
+            <div class="dropzone" id="metaphor-zone">Metaphor</div>
+            <div class="dropzone" id="personification-zone">Personification</div>
+            <div class="dropzone" id="hyperbole-zone">Hyperbole</div>
+        </div>
+        <div id="sentences">
+            <!-- Draggable sentences will be injected here by JavaScript -->
+        </div>
+        <button onclick="submitAnswers()">Submit</button>
+        <div id="result"></div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
